@@ -33,9 +33,9 @@ The script outputs the tables in the console using rich formatting and provides 
 2. **Execute the Script**:
 
 	- Mention the permissions to look for inside the script in line number 24
-> Example  
-> exact_permissions = {"iam:*", "secretsmanager:GetSecretValue"}    
-> prefix_permissions = {"secretsmanager:","s3:"}
+		> Example  
+		> exact_permissions = {"iam:*", "secretsmanager:GetSecretValue"}    
+		> prefix_permissions = {"secretsmanager:","s3:"}
 
 
    - Run the script in the terminal  
