@@ -220,7 +220,7 @@ for group_name, users in group_user_mapping.items():
 # Option to save as CSV
 export_to_csv = input("Would you like to export the output to a CSV file? (yes/no): ").strip().lower()
 if export_to_csv == "yes":
-    with open("permissions_output.csv", mode="w", newline="") as file:
+    with open("aws_iam.csv", mode="w", newline="") as file:
         writer = csv.writer(file)
         
         # Write main permissions table
@@ -237,4 +237,4 @@ if export_to_csv == "yes":
                 for user in users:
                     writer.writerow([user])
     
-    print("Output saved to 'permissions_output.csv'")
+    print("Output saved to 'aws_iam.csv'")
