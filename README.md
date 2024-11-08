@@ -31,7 +31,7 @@ The script outputs the tables in the console using rich formatting and provides 
 	``` aws iam get-account-authorization-details --profile Chuma > gaad.json ```
 
 2. **Execute the Script**:
-
+	- Enter the name of the above json file inside the script in line number 18
 	- Mention the permissions to look for inside the script in line number 24
 		> Example  
 		> exact_permissions = {"iam:*", "secretsmanager:GetSecretValue"}    

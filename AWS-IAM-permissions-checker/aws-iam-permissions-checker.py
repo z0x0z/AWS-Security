@@ -1,5 +1,3 @@
-
-
 """
 Usage: 
 aws iam get-account-authorization-details --profile tazapay > gaad.json
