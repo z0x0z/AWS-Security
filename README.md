@@ -23,7 +23,7 @@ Welcome to the **z0x0z-AWS-Security** repository! This repository contains a col
 - **Location**: `AWS SSO permissions checker/`
 - **Readme**: Details are provided in `AWS SSO permissions checker/readme.md`.
 
-### 3. **AWS Cloudformation termination protection manager**
+### 4. **AWS Cloudformation termination protection manager**
 - **Script**: `AWS_Cloudformation_termination_protection_manager.py`
 - **Description**: Checks AWS Cloudformation for termination protection status and enables it
 - **Location**: `AWS Cloudformation termination protection manager/`
